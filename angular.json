@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "beauyt-spa": {
+    "beauty-spa": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "beauyt-spa:build:production"
+              "buildTarget": "beauty-spa:build:production"
             },
             "development": {
-              "buildTarget": "beauyt-spa:build:development"
+              "buildTarget": "beauty-spa:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5f8bfae1-6bd6-42e3-a4a4-e7285593b2ca"
   }
 }

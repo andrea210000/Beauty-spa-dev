@@ -1,42 +1,13 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playpen+Sans:wght@100..800&display=swap');
 
+
+
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.font-extra-light {
-    font-weight: 200;
-}
-
-.font-light {
-    font-weight: 300;
-}
-
-.font-regular {
-    font-weight: 400;
-}
-
-.font-medium {
-    font-weight: 500;
-}
-
-.font-semi-bold {
-    font-weight: 600;
-}
-
-.font-bold {
-    font-weight: 700;
-}
-
-.font-extra-bold {
-    font-weight: 800;
-}
-
-.font-black {
-    font-weight: 900;
-}
-
-.font-ultra-black {
-    font-weight: 1000;
+:root {
+    --pink-beauty: #f9ddeb;
+    --default-border-radius: 7px;
 }
